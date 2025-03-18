@@ -1,0 +1,1301 @@
+2025-03-17 18:17:01.620 [nioEventLoopGroup-4-1] INFO  RadarLogger - Radar [127.0.0.1:9000]] connection success!
+2025-03-17 18:17:01.621 [nioEventLoopGroup-4-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9000, RadarClientHandler#0, 当前设备数量：1
+2025-03-17 18:17:01.630 [nioEventLoopGroup-5-1] INFO  RadarLogger - Radar [127.0.0.1:9001]] connection success!
+2025-03-17 18:17:01.631 [nioEventLoopGroup-5-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9001, RadarClientHandler#0, 当前设备数量：2
+2025-03-17 18:17:01.643 [nioEventLoopGroup-6-1] INFO  RadarLogger - Radar [127.0.0.1:9002]] connection success!
+2025-03-17 18:17:01.643 [nioEventLoopGroup-6-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9002, RadarClientHandler#0, 当前设备数量：3
+2025-03-17 18:17:01.657 [nioEventLoopGroup-7-1] INFO  RadarLogger - Radar [127.0.0.1:9003]] connection success!
+2025-03-17 18:17:01.657 [nioEventLoopGroup-7-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9003, RadarClientHandler#0, 当前设备数量：4
+2025-03-17 18:17:01.670 [nioEventLoopGroup-8-1] INFO  RadarLogger - Radar [127.0.0.1:9004]] connection success!
+2025-03-17 18:17:01.670 [nioEventLoopGroup-8-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9004, RadarClientHandler#0, 当前设备数量：5
+2025-03-17 18:17:01.687 [nioEventLoopGroup-9-1] INFO  RadarLogger - Radar [127.0.0.1:9005]] connection success!
+2025-03-17 18:17:01.687 [nioEventLoopGroup-9-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9005, RadarClientHandler#0, 当前设备数量：6
+2025-03-17 18:17:01.705 [nioEventLoopGroup-10-1] INFO  RadarLogger - Radar [127.0.0.1:9006]] connection success!
+2025-03-17 18:17:01.705 [nioEventLoopGroup-10-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9006, RadarClientHandler#0, 当前设备数量：7
+2025-03-17 18:17:01.724 [nioEventLoopGroup-11-1] INFO  RadarLogger - Radar [127.0.0.1:9007]] connection success!
+2025-03-17 18:17:01.724 [nioEventLoopGroup-11-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9007, RadarClientHandler#0, 当前设备数量：8
+2025-03-17 18:17:01.740 [nioEventLoopGroup-12-1] INFO  RadarLogger - Radar [127.0.0.1:9008]] connection success!
+2025-03-17 18:17:01.740 [nioEventLoopGroup-12-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9008, RadarClientHandler#0, 当前设备数量：9
+2025-03-17 18:17:01.754 [nioEventLoopGroup-14-1] INFO  RadarLogger - Radar [127.0.0.1:9009]] connection success!
+2025-03-17 18:17:01.754 [nioEventLoopGroup-14-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9009, RadarClientHandler#0, 当前设备数量：10
+2025-03-17 18:17:01.778 [nioEventLoopGroup-15-1] INFO  RadarLogger - Radar [127.0.0.1:9010]] connection success!
+2025-03-17 18:17:01.778 [nioEventLoopGroup-15-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9010, RadarClientHandler#0, 当前设备数量：11
+2025-03-17 18:17:01.791 [nioEventLoopGroup-16-1] INFO  RadarLogger - Radar [127.0.0.1:9011]] connection success!
+2025-03-17 18:17:01.792 [nioEventLoopGroup-16-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9011, RadarClientHandler#0, 当前设备数量：12
+2025-03-17 18:17:01.806 [nioEventLoopGroup-17-1] INFO  RadarLogger - Radar [127.0.0.1:9012]] connection success!
+2025-03-17 18:17:01.806 [nioEventLoopGroup-17-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9012, RadarClientHandler#0, 当前设备数量：13
+2025-03-17 18:17:01.821 [nioEventLoopGroup-18-1] INFO  RadarLogger - Radar [127.0.0.1:9013]] connection success!
+2025-03-17 18:17:01.821 [nioEventLoopGroup-18-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9013, RadarClientHandler#0, 当前设备数量：14
+2025-03-17 18:17:01.836 [nioEventLoopGroup-19-1] INFO  RadarLogger - Radar [127.0.0.1:9014]] connection success!
+2025-03-17 18:17:01.836 [nioEventLoopGroup-19-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9014, RadarClientHandler#0, 当前设备数量：15
+2025-03-17 18:17:01.851 [nioEventLoopGroup-20-1] INFO  RadarLogger - Radar [127.0.0.1:9015]] connection success!
+2025-03-17 18:17:01.851 [nioEventLoopGroup-20-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9015, RadarClientHandler#0, 当前设备数量：16
+2025-03-17 18:17:01.855 [pool-15-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9012]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-8-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9005]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-12-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9009]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-17-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9014]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-4-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9001]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-6-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9003]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-13-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9010]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-9-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9006]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-14-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9011]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-11-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9008]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-7-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9004]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-3-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9000]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-16-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9013]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-5-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9002]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.855 [pool-10-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9007]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.856 [pool-18-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9015]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.870 [nioEventLoopGroup-21-1] INFO  RadarLogger - Radar [127.0.0.1:9016]] connection success!
+2025-03-17 18:17:01.870 [nioEventLoopGroup-21-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9016, RadarClientHandler#0, 当前设备数量：17
+2025-03-17 18:17:01.875 [pool-19-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9016]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.894 [nioEventLoopGroup-22-1] INFO  RadarLogger - Radar [127.0.0.1:9017]] connection success!
+2025-03-17 18:17:01.894 [nioEventLoopGroup-22-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9017, RadarClientHandler#0, 当前设备数量：18
+2025-03-17 18:17:01.897 [pool-20-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9017]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.907 [nioEventLoopGroup-23-1] INFO  RadarLogger - Radar [127.0.0.1:9018]] connection success!
+2025-03-17 18:17:01.907 [nioEventLoopGroup-23-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9018, RadarClientHandler#0, 当前设备数量：19
+2025-03-17 18:17:01.910 [pool-21-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9018]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.917 [nioEventLoopGroup-24-1] INFO  RadarLogger - Radar [127.0.0.1:9019]] connection success!
+2025-03-17 18:17:01.918 [nioEventLoopGroup-24-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9019, RadarClientHandler#0, 当前设备数量：20
+2025-03-17 18:17:01.923 [pool-22-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9019]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.932 [nioEventLoopGroup-25-1] INFO  RadarLogger - Radar [127.0.0.1:9020]] connection success!
+2025-03-17 18:17:01.932 [nioEventLoopGroup-25-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9020, RadarClientHandler#0, 当前设备数量：21
+2025-03-17 18:17:01.935 [pool-23-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9020]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.943 [nioEventLoopGroup-26-1] INFO  RadarLogger - Radar [127.0.0.1:9021]] connection success!
+2025-03-17 18:17:01.943 [nioEventLoopGroup-26-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9021, RadarClientHandler#0, 当前设备数量：22
+2025-03-17 18:17:01.946 [pool-24-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9021]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.954 [nioEventLoopGroup-27-1] INFO  RadarLogger - Radar [127.0.0.1:9022]] connection success!
+2025-03-17 18:17:01.955 [nioEventLoopGroup-27-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9022, RadarClientHandler#0, 当前设备数量：23
+2025-03-17 18:17:01.958 [pool-25-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9022]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.965 [nioEventLoopGroup-28-1] INFO  RadarLogger - Radar [127.0.0.1:9023]] connection success!
+2025-03-17 18:17:01.965 [nioEventLoopGroup-28-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9023, RadarClientHandler#0, 当前设备数量：24
+2025-03-17 18:17:01.969 [pool-26-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9023]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.977 [nioEventLoopGroup-29-1] INFO  RadarLogger - Radar [127.0.0.1:9024]] connection success!
+2025-03-17 18:17:01.977 [nioEventLoopGroup-29-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9024, RadarClientHandler#0, 当前设备数量：25
+2025-03-17 18:17:01.980 [pool-27-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9024]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:01.989 [nioEventLoopGroup-30-1] INFO  RadarLogger - Radar [127.0.0.1:9025]] connection success!
+2025-03-17 18:17:01.989 [nioEventLoopGroup-30-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9025, RadarClientHandler#0, 当前设备数量：26
+2025-03-17 18:17:01.993 [pool-28-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9025]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.005 [nioEventLoopGroup-31-1] INFO  RadarLogger - Radar [127.0.0.1:9026]] connection success!
+2025-03-17 18:17:02.005 [nioEventLoopGroup-31-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9026, RadarClientHandler#0, 当前设备数量：27
+2025-03-17 18:17:02.009 [pool-29-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9026]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.019 [nioEventLoopGroup-32-1] INFO  RadarLogger - Radar [127.0.0.1:9027]] connection success!
+2025-03-17 18:17:02.019 [nioEventLoopGroup-32-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9027, RadarClientHandler#0, 当前设备数量：28
+2025-03-17 18:17:02.023 [pool-30-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9027]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.035 [nioEventLoopGroup-33-1] INFO  RadarLogger - Radar [127.0.0.1:9028]] connection success!
+2025-03-17 18:17:02.035 [nioEventLoopGroup-33-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9028, RadarClientHandler#0, 当前设备数量：29
+2025-03-17 18:17:02.038 [pool-31-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9028]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.051 [nioEventLoopGroup-34-1] INFO  RadarLogger - Radar [127.0.0.1:9029]] connection success!
+2025-03-17 18:17:02.052 [nioEventLoopGroup-34-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9029, RadarClientHandler#0, 当前设备数量：30
+2025-03-17 18:17:02.055 [pool-32-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9029]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.066 [nioEventLoopGroup-35-1] INFO  RadarLogger - Radar [127.0.0.1:9030]] connection success!
+2025-03-17 18:17:02.066 [nioEventLoopGroup-35-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9030, RadarClientHandler#0, 当前设备数量：31
+2025-03-17 18:17:02.069 [pool-33-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9030]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.079 [nioEventLoopGroup-36-1] INFO  RadarLogger - Radar [127.0.0.1:9031]] connection success!
+2025-03-17 18:17:02.080 [nioEventLoopGroup-36-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9031, RadarClientHandler#0, 当前设备数量：32
+2025-03-17 18:17:02.083 [pool-34-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9031]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.097 [nioEventLoopGroup-37-1] INFO  RadarLogger - Radar [127.0.0.1:9032]] connection success!
+2025-03-17 18:17:02.097 [nioEventLoopGroup-37-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9032, RadarClientHandler#0, 当前设备数量：33
+2025-03-17 18:17:02.101 [pool-35-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9032]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.116 [nioEventLoopGroup-38-1] INFO  RadarLogger - Radar [127.0.0.1:9033]] connection success!
+2025-03-17 18:17:02.116 [nioEventLoopGroup-38-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9033, RadarClientHandler#0, 当前设备数量：34
+2025-03-17 18:17:02.121 [pool-36-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9033]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.136 [nioEventLoopGroup-39-1] INFO  RadarLogger - Radar [127.0.0.1:9034]] connection success!
+2025-03-17 18:17:02.137 [nioEventLoopGroup-39-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9034, RadarClientHandler#0, 当前设备数量：35
+2025-03-17 18:17:02.140 [pool-37-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9034]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.153 [nioEventLoopGroup-40-1] INFO  RadarLogger - Radar [127.0.0.1:9035]] connection success!
+2025-03-17 18:17:02.153 [nioEventLoopGroup-40-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9035, RadarClientHandler#0, 当前设备数量：36
+2025-03-17 18:17:02.157 [pool-38-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9035]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.169 [nioEventLoopGroup-41-1] INFO  RadarLogger - Radar [127.0.0.1:9036]] connection success!
+2025-03-17 18:17:02.169 [nioEventLoopGroup-41-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9036, RadarClientHandler#0, 当前设备数量：37
+2025-03-17 18:17:02.172 [pool-39-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9036]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.185 [nioEventLoopGroup-42-1] INFO  RadarLogger - Radar [127.0.0.1:9037]] connection success!
+2025-03-17 18:17:02.185 [nioEventLoopGroup-42-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9037, RadarClientHandler#0, 当前设备数量：38
+2025-03-17 18:17:02.189 [pool-40-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9037]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.204 [nioEventLoopGroup-43-1] INFO  RadarLogger - Radar [127.0.0.1:9038]] connection success!
+2025-03-17 18:17:02.204 [nioEventLoopGroup-43-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9038, RadarClientHandler#0, 当前设备数量：39
+2025-03-17 18:17:02.208 [pool-41-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9038]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.222 [nioEventLoopGroup-44-1] INFO  RadarLogger - Radar [127.0.0.1:9039]] connection success!
+2025-03-17 18:17:02.222 [nioEventLoopGroup-44-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9039, RadarClientHandler#0, 当前设备数量：40
+2025-03-17 18:17:02.228 [pool-42-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9039]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.246 [nioEventLoopGroup-45-1] INFO  RadarLogger - Radar [127.0.0.1:9040]] connection success!
+2025-03-17 18:17:02.246 [nioEventLoopGroup-45-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9040, RadarClientHandler#0, 当前设备数量：41
+2025-03-17 18:17:02.249 [pool-43-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9040]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.265 [nioEventLoopGroup-46-1] INFO  RadarLogger - Radar [127.0.0.1:9041]] connection success!
+2025-03-17 18:17:02.265 [nioEventLoopGroup-46-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9041, RadarClientHandler#0, 当前设备数量：42
+2025-03-17 18:17:02.269 [pool-44-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9041]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.286 [nioEventLoopGroup-47-1] INFO  RadarLogger - Radar [127.0.0.1:9042]] connection success!
+2025-03-17 18:17:02.286 [nioEventLoopGroup-47-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9042, RadarClientHandler#0, 当前设备数量：43
+2025-03-17 18:17:02.290 [pool-45-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9042]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.309 [nioEventLoopGroup-48-1] INFO  RadarLogger - Radar [127.0.0.1:9043]] connection success!
+2025-03-17 18:17:02.310 [nioEventLoopGroup-48-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9043, RadarClientHandler#0, 当前设备数量：44
+2025-03-17 18:17:02.313 [pool-46-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9043]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.327 [nioEventLoopGroup-49-1] INFO  RadarLogger - Radar [127.0.0.1:9044]] connection success!
+2025-03-17 18:17:02.327 [nioEventLoopGroup-49-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9044, RadarClientHandler#0, 当前设备数量：45
+2025-03-17 18:17:02.330 [pool-47-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9044]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.344 [nioEventLoopGroup-50-1] INFO  RadarLogger - Radar [127.0.0.1:9045]] connection success!
+2025-03-17 18:17:02.344 [nioEventLoopGroup-50-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9045, RadarClientHandler#0, 当前设备数量：46
+2025-03-17 18:17:02.347 [pool-48-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9045]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.360 [nioEventLoopGroup-51-1] INFO  RadarLogger - Radar [127.0.0.1:9046]] connection success!
+2025-03-17 18:17:02.360 [nioEventLoopGroup-51-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9046, RadarClientHandler#0, 当前设备数量：47
+2025-03-17 18:17:02.363 [pool-49-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9046]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.374 [nioEventLoopGroup-52-1] INFO  RadarLogger - Radar [127.0.0.1:9047]] connection success!
+2025-03-17 18:17:02.374 [nioEventLoopGroup-52-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9047, RadarClientHandler#0, 当前设备数量：48
+2025-03-17 18:17:02.377 [pool-50-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9047]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.390 [nioEventLoopGroup-53-1] INFO  RadarLogger - Radar [127.0.0.1:9048]] connection success!
+2025-03-17 18:17:02.390 [nioEventLoopGroup-53-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9048, RadarClientHandler#0, 当前设备数量：49
+2025-03-17 18:17:02.393 [pool-51-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9048]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.404 [nioEventLoopGroup-54-1] INFO  RadarLogger - Radar [127.0.0.1:9049]] connection success!
+2025-03-17 18:17:02.404 [nioEventLoopGroup-54-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9049, RadarClientHandler#0, 当前设备数量：50
+2025-03-17 18:17:02.407 [pool-52-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9049]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.419 [nioEventLoopGroup-55-1] INFO  RadarLogger - Radar [127.0.0.1:9050]] connection success!
+2025-03-17 18:17:02.419 [nioEventLoopGroup-55-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9050, RadarClientHandler#0, 当前设备数量：51
+2025-03-17 18:17:02.422 [pool-53-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9050]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.435 [nioEventLoopGroup-56-1] INFO  RadarLogger - Radar [127.0.0.1:9051]] connection success!
+2025-03-17 18:17:02.435 [nioEventLoopGroup-56-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9051, RadarClientHandler#0, 当前设备数量：52
+2025-03-17 18:17:02.438 [pool-54-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9051]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.451 [nioEventLoopGroup-57-1] INFO  RadarLogger - Radar [127.0.0.1:9052]] connection success!
+2025-03-17 18:17:02.452 [nioEventLoopGroup-57-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9052, RadarClientHandler#0, 当前设备数量：53
+2025-03-17 18:17:02.455 [pool-55-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9052]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.469 [nioEventLoopGroup-58-1] INFO  RadarLogger - Radar [127.0.0.1:9053]] connection success!
+2025-03-17 18:17:02.469 [nioEventLoopGroup-58-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9053, RadarClientHandler#0, 当前设备数量：54
+2025-03-17 18:17:02.472 [pool-56-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9053]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:02.487 [nioEventLoopGroup-59-1] INFO  RadarLogger - Radar [127.0.0.1:9054]] connection success!
+2025-03-17 18:17:02.487 [nioEventLoopGroup-59-1] INFO  RadarLogger - 设备连接成功:127.0.0.1:9054, RadarClientHandler#0, 当前设备数量：55
+2025-03-17 18:17:02.490 [pool-57-thread-1] INFO  RadarLogger - 收到雷达[127.0.0.1:9054]上报数据[0x75 0x7B 0x06 0x03 0xEE ]: 有货变无货
+2025-03-17 18:17:53.483 [nioEventLoopGroup-30-1] WARN  RadarLogger - Radar [127.0.0.1:9025] connection closed.
+2025-03-17 18:17:53.484 [nioEventLoopGroup-30-1] INFO  RadarLogger - 设备断开:127.0.0.1:9025, RadarClientHandler#0, 当前设备数量：54
+2025-03-17 18:17:54.709 [nioEventLoopGroup-4-1] INFO  RadarLogger - 设备[127.0.0.1:9000]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-15-1] INFO  RadarLogger - 设备[127.0.0.1:9010]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-16-1] INFO  RadarLogger - 设备[127.0.0.1:9011]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-19-1] INFO  RadarLogger - 设备[127.0.0.1:9014]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-20-1] INFO  RadarLogger - 设备[127.0.0.1:9015]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-18-1] INFO  RadarLogger - 设备[127.0.0.1:9013]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-17-1] INFO  RadarLogger - 设备[127.0.0.1:9012]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-7-1] INFO  RadarLogger - 设备[127.0.0.1:9003]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-9-1] INFO  RadarLogger - 设备[127.0.0.1:9005]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-11-1] INFO  RadarLogger - 设备[127.0.0.1:9007]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-8-1] INFO  RadarLogger - 设备[127.0.0.1:9004]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-10-1] INFO  RadarLogger - 设备[127.0.0.1:9006]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-6-1] INFO  RadarLogger - 设备[127.0.0.1:9002]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-12-1] INFO  RadarLogger - 设备[127.0.0.1:9008]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-5-1] INFO  RadarLogger - 设备[127.0.0.1:9001]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-4-1] WARN  RadarLogger - Radar [127.0.0.1:9000] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-21-1] INFO  RadarLogger - 设备[127.0.0.1:9016]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-14-1] INFO  RadarLogger - 设备[127.0.0.1:9009]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-22-1] INFO  RadarLogger - 设备[127.0.0.1:9017]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-10-1] WARN  RadarLogger - Radar [127.0.0.1:9006] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-18-1] WARN  RadarLogger - Radar [127.0.0.1:9013] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-8-1] WARN  RadarLogger - Radar [127.0.0.1:9004] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-17-1] WARN  RadarLogger - Radar [127.0.0.1:9012] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-12-1] WARN  RadarLogger - Radar [127.0.0.1:9008] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-9-1] WARN  RadarLogger - Radar [127.0.0.1:9005] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-6-1] WARN  RadarLogger - Radar [127.0.0.1:9002] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-19-1] WARN  RadarLogger - Radar [127.0.0.1:9014] connection closed.
+2025-03-17 18:17:54.709 [nioEventLoopGroup-23-1] INFO  RadarLogger - 设备[127.0.0.1:9018]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.709 [nioEventLoopGroup-16-1] WARN  RadarLogger - Radar [127.0.0.1:9011] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-15-1] WARN  RadarLogger - Radar [127.0.0.1:9010] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-20-1] WARN  RadarLogger - Radar [127.0.0.1:9015] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-11-1] WARN  RadarLogger - Radar [127.0.0.1:9007] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-7-1] WARN  RadarLogger - Radar [127.0.0.1:9003] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-5-1] WARN  RadarLogger - Radar [127.0.0.1:9001] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-21-1] WARN  RadarLogger - Radar [127.0.0.1:9016] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-23-1] WARN  RadarLogger - Radar [127.0.0.1:9018] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-22-1] WARN  RadarLogger - Radar [127.0.0.1:9017] connection closed.
+2025-03-17 18:17:54.710 [nioEventLoopGroup-14-1] WARN  RadarLogger - Radar [127.0.0.1:9009] connection closed.
+2025-03-17 18:17:54.711 [nioEventLoopGroup-24-1] INFO  RadarLogger - 设备[127.0.0.1:9019]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-24-1] WARN  RadarLogger - Radar [127.0.0.1:9019] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-31-1] INFO  RadarLogger - 设备[127.0.0.1:9026]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-33-1] INFO  RadarLogger - 设备[127.0.0.1:9028]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-29-1] INFO  RadarLogger - 设备[127.0.0.1:9024]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-28-1] INFO  RadarLogger - 设备[127.0.0.1:9023]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-31-1] WARN  RadarLogger - Radar [127.0.0.1:9026] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-28-1] WARN  RadarLogger - Radar [127.0.0.1:9023] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-34-1] INFO  RadarLogger - 设备[127.0.0.1:9029]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-27-1] INFO  RadarLogger - 设备[127.0.0.1:9022]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-25-1] INFO  RadarLogger - 设备[127.0.0.1:9020]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-26-1] INFO  RadarLogger - 设备[127.0.0.1:9021]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-34-1] WARN  RadarLogger - Radar [127.0.0.1:9029] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-35-1] INFO  RadarLogger - 设备[127.0.0.1:9030]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-32-1] INFO  RadarLogger - 设备[127.0.0.1:9027]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-35-1] WARN  RadarLogger - Radar [127.0.0.1:9030] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-36-1] INFO  RadarLogger - 设备[127.0.0.1:9031]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.712 [nioEventLoopGroup-36-1] WARN  RadarLogger - Radar [127.0.0.1:9031] connection closed.
+2025-03-17 18:17:54.712 [nioEventLoopGroup-37-1] INFO  RadarLogger - 设备[127.0.0.1:9032]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.714 [nioEventLoopGroup-37-1] WARN  RadarLogger - Radar [127.0.0.1:9032] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-38-1] INFO  RadarLogger - 设备[127.0.0.1:9033]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.714 [nioEventLoopGroup-38-1] WARN  RadarLogger - Radar [127.0.0.1:9033] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-39-1] INFO  RadarLogger - 设备[127.0.0.1:9034]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.714 [nioEventLoopGroup-39-1] WARN  RadarLogger - Radar [127.0.0.1:9034] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-33-1] WARN  RadarLogger - Radar [127.0.0.1:9028] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-40-1] INFO  RadarLogger - 设备[127.0.0.1:9035]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.714 [nioEventLoopGroup-29-1] WARN  RadarLogger - Radar [127.0.0.1:9024] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-40-1] WARN  RadarLogger - Radar [127.0.0.1:9035] connection closed.
+2025-03-17 18:17:54.714 [nioEventLoopGroup-41-1] INFO  RadarLogger - 设备[127.0.0.1:9036]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.714 [nioEventLoopGroup-41-1] WARN  RadarLogger - Radar [127.0.0.1:9036] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-42-1] INFO  RadarLogger - 设备[127.0.0.1:9037]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.715 [nioEventLoopGroup-42-1] WARN  RadarLogger - Radar [127.0.0.1:9037] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-43-1] INFO  RadarLogger - 设备[127.0.0.1:9038]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.715 [nioEventLoopGroup-43-1] WARN  RadarLogger - Radar [127.0.0.1:9038] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-44-1] INFO  RadarLogger - 设备[127.0.0.1:9039]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.715 [nioEventLoopGroup-44-1] WARN  RadarLogger - Radar [127.0.0.1:9039] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-46-1] INFO  RadarLogger - 设备[127.0.0.1:9041]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.715 [nioEventLoopGroup-46-1] WARN  RadarLogger - Radar [127.0.0.1:9041] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-47-1] INFO  RadarLogger - 设备[127.0.0.1:9042]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.715 [nioEventLoopGroup-47-1] WARN  RadarLogger - Radar [127.0.0.1:9042] connection closed.
+2025-03-17 18:17:54.715 [nioEventLoopGroup-48-1] INFO  RadarLogger - 设备[127.0.0.1:9043]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.716 [nioEventLoopGroup-48-1] WARN  RadarLogger - Radar [127.0.0.1:9043] connection closed.
+2025-03-17 18:17:54.716 [nioEventLoopGroup-49-1] INFO  RadarLogger - 设备[127.0.0.1:9044]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.716 [nioEventLoopGroup-27-1] WARN  RadarLogger - Radar [127.0.0.1:9022] connection closed.
+2025-03-17 18:17:54.716 [nioEventLoopGroup-25-1] WARN  RadarLogger - Radar [127.0.0.1:9020] connection closed.
+2025-03-17 18:17:54.716 [nioEventLoopGroup-50-1] INFO  RadarLogger - 设备[127.0.0.1:9045]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.716 [nioEventLoopGroup-50-1] WARN  RadarLogger - Radar [127.0.0.1:9045] connection closed.
+2025-03-17 18:17:54.716 [nioEventLoopGroup-51-1] INFO  RadarLogger - 设备[127.0.0.1:9046]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.716 [nioEventLoopGroup-51-1] WARN  RadarLogger - Radar [127.0.0.1:9046] connection closed.
+2025-03-17 18:17:54.716 [nioEventLoopGroup-52-1] INFO  RadarLogger - 设备[127.0.0.1:9047]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.718 [nioEventLoopGroup-52-1] WARN  RadarLogger - Radar [127.0.0.1:9047] connection closed.
+2025-03-17 18:17:54.718 [nioEventLoopGroup-53-1] INFO  RadarLogger - 设备[127.0.0.1:9048]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.718 [nioEventLoopGroup-53-1] WARN  RadarLogger - Radar [127.0.0.1:9048] connection closed.
+2025-03-17 18:17:54.718 [nioEventLoopGroup-54-1] INFO  RadarLogger - 设备[127.0.0.1:9049]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.720 [nioEventLoopGroup-45-1] INFO  RadarLogger - 设备[127.0.0.1:9040]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.721 [nioEventLoopGroup-58-1] INFO  RadarLogger - 设备[127.0.0.1:9053]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.721 [nioEventLoopGroup-59-1] INFO  RadarLogger - 设备[127.0.0.1:9054]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.721 [nioEventLoopGroup-56-1] INFO  RadarLogger - 设备[127.0.0.1:9051]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.721 [nioEventLoopGroup-54-1] WARN  RadarLogger - Radar [127.0.0.1:9049] connection closed.
+2025-03-17 18:17:54.724 [nioEventLoopGroup-49-1] WARN  RadarLogger - Radar [127.0.0.1:9044] connection closed.
+2025-03-17 18:17:54.721 [nioEventLoopGroup-57-1] INFO  RadarLogger - 设备[127.0.0.1:9052]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.725 [nioEventLoopGroup-59-1] WARN  RadarLogger - Radar [127.0.0.1:9054] connection closed.
+2025-03-17 18:17:54.721 [nioEventLoopGroup-55-1] INFO  RadarLogger - 设备[127.0.0.1:9050]异常: 
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2025-03-17 18:17:54.725 [nioEventLoopGroup-55-1] WARN  RadarLogger - Radar [127.0.0.1:9050] connection closed.
+2025-03-17 18:17:54.726 [nioEventLoopGroup-45-1] WARN  RadarLogger - Radar [127.0.0.1:9040] connection closed.
+2025-03-17 18:17:54.728 [nioEventLoopGroup-32-1] WARN  RadarLogger - Radar [127.0.0.1:9027] connection closed.
+2025-03-17 18:17:54.728 [nioEventLoopGroup-58-1] WARN  RadarLogger - Radar [127.0.0.1:9053] connection closed.
+2025-03-17 18:17:54.728 [nioEventLoopGroup-26-1] WARN  RadarLogger - Radar [127.0.0.1:9021] connection closed.
+2025-03-17 18:17:54.728 [nioEventLoopGroup-56-1] WARN  RadarLogger - Radar [127.0.0.1:9051] connection closed.
+2025-03-17 18:17:54.728 [nioEventLoopGroup-57-1] WARN  RadarLogger - Radar [127.0.0.1:9052] connection closed.
+2025-03-17 18:17:54.739 [nioEventLoopGroup-16-1] INFO  RadarLogger - 设备断开:127.0.0.1:9011, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.742 [nioEventLoopGroup-6-1] INFO  RadarLogger - 设备断开:127.0.0.1:9002, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.746 [nioEventLoopGroup-42-1] INFO  RadarLogger - 设备断开:127.0.0.1:9037, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.758 [nioEventLoopGroup-15-1] INFO  RadarLogger - 设备断开:127.0.0.1:9010, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.759 [nioEventLoopGroup-14-1] INFO  RadarLogger - 设备断开:127.0.0.1:9009, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.763 [nioEventLoopGroup-35-1] INFO  RadarLogger - 设备断开:127.0.0.1:9030, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.763 [nioEventLoopGroup-44-1] INFO  RadarLogger - 设备断开:127.0.0.1:9039, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.764 [nioEventLoopGroup-17-1] INFO  RadarLogger - 设备断开:127.0.0.1:9012, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.766 [nioEventLoopGroup-56-1] INFO  RadarLogger - 设备断开:127.0.0.1:9051, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.766 [nioEventLoopGroup-50-1] INFO  RadarLogger - 设备断开:127.0.0.1:9045, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.767 [nioEventLoopGroup-48-1] INFO  RadarLogger - 设备断开:127.0.0.1:9043, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.767 [nioEventLoopGroup-47-1] INFO  RadarLogger - 设备断开:127.0.0.1:9042, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.768 [nioEventLoopGroup-12-1] INFO  RadarLogger - 设备断开:127.0.0.1:9008, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.768 [nioEventLoopGroup-20-1] INFO  RadarLogger - 设备断开:127.0.0.1:9015, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.770 [nioEventLoopGroup-32-1] INFO  RadarLogger - 设备断开:127.0.0.1:9027, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.771 [nioEventLoopGroup-19-1] INFO  RadarLogger - 设备断开:127.0.0.1:9014, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.772 [nioEventLoopGroup-21-1] INFO  RadarLogger - 设备断开:127.0.0.1:9016, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.773 [nioEventLoopGroup-34-1] INFO  RadarLogger - 设备断开:127.0.0.1:9029, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.773 [nioEventLoopGroup-46-1] INFO  RadarLogger - 设备断开:127.0.0.1:9041, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.773 [nioEventLoopGroup-9-1] INFO  RadarLogger - 设备断开:127.0.0.1:9005, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.776 [nioEventLoopGroup-11-1] INFO  RadarLogger - 设备断开:127.0.0.1:9007, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.776 [nioEventLoopGroup-8-1] INFO  RadarLogger - 设备断开:127.0.0.1:9004, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.776 [nioEventLoopGroup-52-1] INFO  RadarLogger - 设备断开:127.0.0.1:9047, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.776 [nioEventLoopGroup-57-1] INFO  RadarLogger - 设备断开:127.0.0.1:9052, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.777 [nioEventLoopGroup-29-1] INFO  RadarLogger - 设备断开:127.0.0.1:9024, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.777 [nioEventLoopGroup-31-1] INFO  RadarLogger - 设备断开:127.0.0.1:9026, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.777 [nioEventLoopGroup-41-1] INFO  RadarLogger - 设备断开:127.0.0.1:9036, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.777 [nioEventLoopGroup-23-1] INFO  RadarLogger - 设备断开:127.0.0.1:9018, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.779 [nioEventLoopGroup-59-1] INFO  RadarLogger - 设备断开:127.0.0.1:9054, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.780 [nioEventLoopGroup-18-1] INFO  RadarLogger - 设备断开:127.0.0.1:9013, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.780 [nioEventLoopGroup-28-1] INFO  RadarLogger - 设备断开:127.0.0.1:9023, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.780 [nioEventLoopGroup-53-1] INFO  RadarLogger - 设备断开:127.0.0.1:9048, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.780 [nioEventLoopGroup-10-1] INFO  RadarLogger - 设备断开:127.0.0.1:9006, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.782 [nioEventLoopGroup-37-1] INFO  RadarLogger - 设备断开:127.0.0.1:9032, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.783 [nioEventLoopGroup-55-1] INFO  RadarLogger - 设备断开:127.0.0.1:9050, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.783 [nioEventLoopGroup-22-1] INFO  RadarLogger - 设备断开:127.0.0.1:9017, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.783 [nioEventLoopGroup-49-1] INFO  RadarLogger - 设备断开:127.0.0.1:9044, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.784 [nioEventLoopGroup-54-1] INFO  RadarLogger - 设备断开:127.0.0.1:9049, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.785 [nioEventLoopGroup-24-1] INFO  RadarLogger - 设备断开:127.0.0.1:9019, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.785 [nioEventLoopGroup-4-1] INFO  RadarLogger - 设备断开:127.0.0.1:9000, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-7-1] INFO  RadarLogger - 设备断开:127.0.0.1:9003, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-27-1] INFO  RadarLogger - 设备断开:127.0.0.1:9022, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-40-1] INFO  RadarLogger - 设备断开:127.0.0.1:9035, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-58-1] INFO  RadarLogger - 设备断开:127.0.0.1:9053, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-26-1] INFO  RadarLogger - 设备断开:127.0.0.1:9021, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-38-1] INFO  RadarLogger - 设备断开:127.0.0.1:9033, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.786 [nioEventLoopGroup-51-1] INFO  RadarLogger - 设备断开:127.0.0.1:9046, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.787 [nioEventLoopGroup-39-1] INFO  RadarLogger - 设备断开:127.0.0.1:9034, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.787 [nioEventLoopGroup-43-1] INFO  RadarLogger - 设备断开:127.0.0.1:9038, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.787 [nioEventLoopGroup-25-1] INFO  RadarLogger - 设备断开:127.0.0.1:9020, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.788 [nioEventLoopGroup-5-1] INFO  RadarLogger - 设备断开:127.0.0.1:9001, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.788 [nioEventLoopGroup-33-1] INFO  RadarLogger - 设备断开:127.0.0.1:9028, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.788 [nioEventLoopGroup-45-1] INFO  RadarLogger - 设备断开:127.0.0.1:9040, RadarClientHandler#0, 当前设备数量：0
+2025-03-17 18:17:54.788 [nioEventLoopGroup-36-1] INFO  RadarLogger - 设备断开:127.0.0.1:9031, RadarClientHandler#0, 当前设备数量：0

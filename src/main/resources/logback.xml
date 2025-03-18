@@ -1,0 +1,39 @@
+<configuration>
+    <!-- 日志文件存放路径 -->
+    <property name="LOG_HOME" value="logs/radar" />
+
+    <!-- 定义雷达日志的格式 -->
+    <appender name="RadarAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/radar.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/%d{yyyy-MM-dd}/radar.log</fileNamePattern>
+            <maxHistory>7</maxHistory>  <!-- 保留 7 天的日志 -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 异步日志，防止阻塞 Netty 线程 -->
+    <appender name="AsyncRadarAppender" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>5000</queueSize>  <!-- 队列大小，避免阻塞 -->
+        <discardingThreshold>0</discardingThreshold>
+        <appender-ref ref="RadarAppender" />
+    </appender>
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 定义日志级别 -->
+    <logger name="RadarLogger" level="INFO" additivity="false">
+        <appender-ref ref="AsyncRadarAppender" />
+        <appender-ref ref="Console" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="Console" />
+    </root>
+</configuration>

@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+  redis:
+    host: localhost
+    port: 6379
+    database: 10  # Redis 数据库
