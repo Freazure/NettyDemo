@@ -36,6 +36,7 @@ public class RadarProcessor {
             testObject.setId(key);
             testObject.setData(new String(bytes));
             testObject.setCount(count++);
+            testObject.setLastUpdateTime(System.currentTimeMillis());
             TestObject o = (TestObject) redisTemplate.opsForValue().get(key);
             if (Objects.nonNull(o)) {
                 if (bytes[3] == 0x01) {
@@ -54,6 +55,22 @@ public class RadarProcessor {
             redisTemplate.opsForValue().set(key, testObject);
         } catch (Exception e) {
             radarLogger.error("雷达[{}]处理数据[{}]失败: ", key, bytes, e);
+        }
+    }
+
+    // 定时检测离线设备
+    public void checkHeartbeat(String key) {
+        log.info("检测雷达[{}]心跳", key);
+        long now = System.currentTimeMillis();
+        TestObject o = (TestObject) redisTemplate.opsForValue().get(key);
+        if (Objects.nonNull(o)) {
+            if (now - o.getLastUpdateTime() > 5000) {
+                radarLogger.info("雷达[{}]离线", key);
+                redisTemplate.delete(key);
+            }
+        }
+        else {
+            radarLogger.info("雷达[{}]离线", key);
         }
     }
 

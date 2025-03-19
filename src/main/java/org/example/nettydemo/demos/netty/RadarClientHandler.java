@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * <p>Project: NettyDemo - RadarClientHandler</p>
@@ -92,7 +93,6 @@ public class RadarClientHandler extends ChannelInboundHandlerAdapter {
         InetSocketAddress insocket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIp = insocket.getAddress().getHostAddress();
         String clientPort = String.valueOf(insocket.getPort());
-        RadarClientManager.removeRadarDevice(clientIp+":"+clientPort);
         radarLogger.info("设备[{}]异常: ", clientIp+":"+clientPort, cause);
         log.info("设备[{}]异常: ", clientIp+":"+clientPort, cause);
         ctx.close();//抛出异常，断开与客户端的连接
@@ -105,14 +105,13 @@ public class RadarClientHandler extends ChannelInboundHandlerAdapter {
      * @throws Exception
      */
     @Override
-    public void channelActive(ChannelHandlerContext ctx) throws Exception, IOException
+    public void channelActive(ChannelHandlerContext ctx) throws Exception
     {
         super.channelActive(ctx);
         InetSocketAddress insocket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIp = insocket.getAddress().getHostAddress();
         String clientPort = String.valueOf(insocket.getPort());
-        RadarClientManager.addRadarDevice(clientIp+":"+clientPort, ctx.channel());
-        radarLogger.info("设备连接成功:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarDeviceChannelCount());
+        radarLogger.info("设备连接成功:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarClientCount());
 
     }
 
@@ -129,8 +128,7 @@ public class RadarClientHandler extends ChannelInboundHandlerAdapter {
         InetSocketAddress insocket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIp = insocket.getAddress().getHostAddress();
         String clientPort = String.valueOf(insocket.getPort());
-        RadarClientManager.removeRadarDevice(clientIp+":"+clientPort);
         ctx.close();
-        radarLogger.info("设备断开:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarDeviceChannelCount());
+        radarLogger.info("设备断开:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarClientCount());
     }
 }

@@ -6,6 +6,7 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.util.concurrent.ScheduledFuture;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -38,6 +39,8 @@ public class RadarClient {
     // 客户端的NIO线程组
     @Getter
     private EventLoopGroup group = new NioEventLoopGroup();
+
+    private ScheduledFuture<?> switchTaskFuture;
 
     public RadarClient(String host, int port) {
         this.host = host;
@@ -77,7 +80,7 @@ public class RadarClient {
                     channel.closeFuture().addListener(closeFuture -> {
                         radarLogger.warn("Radar [{}:{}] connection closed.", host, port);
                         log.warn("Radar [{}:{}] connection closed.", host, port);
-                        group.shutdownGracefully();
+                        start();
                     });
                     radarLogger.info("Radar [{}:{}]] connection success!", host, port);
                     log.info("Radar [{}:{}]] connection success!", host, port);
@@ -94,7 +97,11 @@ public class RadarClient {
         // 使用channel所在的EventLoop安排定时任务
         // 切换当前区域
         // 发送切换指令
-        channel.eventLoop().scheduleAtFixedRate(this::sendSwitchCommand, 0, 100, TimeUnit.MILLISECONDS);
+        if (switchTaskFuture != null) {
+            switchTaskFuture.cancel(false);
+            switchTaskFuture = null;
+        }
+        switchTaskFuture = channel.eventLoop().scheduleAtFixedRate(this::sendSwitchCommand, 0, 100, TimeUnit.MILLISECONDS);
     }
 
     private void sendSwitchCommand() {

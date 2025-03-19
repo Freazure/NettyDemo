@@ -2,6 +2,8 @@ package org.example.nettydemo.demos.netty.unuse;
 
 import lombok.Data;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 /**
  * <p>Project: NettyDemo - TestObject</p>
  * <p>Powered by szl On 2025-03-17 14:42:26</p>
@@ -22,4 +24,6 @@ public class TestObject {
     private String data;
 
     private Integer count;
+
+    private Long lastUpdateTime;
 }

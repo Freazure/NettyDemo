@@ -40,6 +40,21 @@ public class TestController {
 
     boolean change = false;
 
+    @PostMapping("/addDevice")
+    @ApiOperation(value = "添加设备")
+    public String addDevice(@RequestBody SendRequest sendRequest) {
+        RadarDevice radarDevice = new RadarDevice(sendRequest.getIp()+":"+sendRequest.getPort(), sendRequest.getIp(), sendRequest.getPort());
+        RadarClientManager.addRadarClient(radarDevice);
+        return "添加设备成功";
+    }
+
+    @PostMapping("deleteDevice")
+    @ApiOperation(value = "删除设备")
+    public String deleteDevice(@RequestBody SendRequest sendRequest) {
+        RadarClientManager.removeRadarClient(sendRequest.getIp()+":"+sendRequest.getPort());
+        return "删除设备成功";
+    }
+
 
     @PostMapping("/sendCommandToDevice")
     @ApiOperation(value = "切换区域")

@@ -24,30 +24,11 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class RadarClientManager {
 
-    // 存储设备 ip:port -> Channel 映射
-    private static final Map<String, Channel> RADAR_CHANNEL_MAP = new ConcurrentHashMap<>();
-
-    // 存储设备 ID -> RadarClient 映射
+    // 存储设备 ip:port -> RadarClient 映射
     private static final Map<String, RadarClient> CLIENTS = new ConcurrentHashMap<>();
 
-    // 添加设备连接
-    public static void addRadarDevice(String address, Channel channel) {
-        RADAR_CHANNEL_MAP.put(address, channel);
-    }
-
-    // 移除设备连接
-    public static void removeRadarDevice(String address) {
-        RADAR_CHANNEL_MAP.remove(address);
-    }
-
-    // 获取设备连接
-    public static Channel getRadarDeviceChannel(String address) {
-        return RADAR_CHANNEL_MAP.get(address);
-    }
-
-    // 获取设备连接数量
-    public static int getRadarDeviceChannelCount() {
-        return RADAR_CHANNEL_MAP.size();
+    public static int getRadarClientCount() {
+        return CLIENTS.size();
     }
 
     public static RadarClient getRadarClient(String radarId) {
@@ -65,7 +46,7 @@ public class RadarClientManager {
     public static void addRadarClient(RadarDevice radarDevice) {
         RadarClient client = new RadarClient(radarDevice.getIp(), radarDevice.getPort());
         client.start();
-        CLIENTS.put(radarDevice.getRadarId(),client);
+        CLIENTS.put(radarDevice.getIp()+":"+radarDevice.getPort(),client);
     }
 
 
@@ -82,7 +63,7 @@ public class RadarClientManager {
             try {
                 List<RadarDevice> radarDeviceList = new ArrayList<>();
                 int basePort = 9000; // 基础端口
-                int deviceCount = 55; // 需要模拟的设备数量
+                int deviceCount = 2; // 需要模拟的设备数量
 
                 for (int i = 0; i < deviceCount; i++) {
                     int port = basePort + i;
