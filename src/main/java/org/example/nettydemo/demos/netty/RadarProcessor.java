@@ -1,5 +1,8 @@
 package org.example.nettydemo.demos.netty;
 
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
+import io.netty.channel.Channel;
 import lombok.extern.slf4j.Slf4j;
 import org.example.nettydemo.demos.netty.unuse.TestObject;
 import org.slf4j.Logger;
@@ -8,7 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.data.redis.core.RedisTemplate;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 /**
  * <p>Project: NettyDemo - RadarProcessor</p>
@@ -29,6 +37,44 @@ public class RadarProcessor {
     private RedisTemplate<String, Object> redisTemplate;
 
     private int count = 0;
+
+    @PostConstruct
+    public void afterPropertiesSet() {
+        try {
+            List<RadarDevice> radarDeviceList = new ArrayList<>();
+            int basePort = 9000; // 基础端口
+            int deviceCount = 2; // 需要模拟的设备数量
+
+            for (int i = 0; i < deviceCount; i++) {
+                int port = basePort + i;
+                radarDeviceList.add(new RadarDevice(port+"","127.0.0.1", port));
+            }
+            RadarClientManager.startAll(radarDeviceList);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        for (RadarClient client : RadarClientManager.getClients().values()) {
+            client.getChannel().eventLoop().scheduleAtFixedRate(() -> {sendSwitchCommand(client);}, 0, 1000, TimeUnit.MILLISECONDS);
+        }
+    }
+
+    private void sendSwitchCommand(RadarClient client) {
+
+        byte[] a10 = new byte[]{(byte) 0x35, (byte) 0x3A , (byte) 0x0A,(byte) 0xFF};
+        byte[] a15 = new byte[]{(byte) 0x35, (byte) 0x3A , (byte) 0x0F,(byte) 0xFF};
+        byte[] command = client.getToggle().getAndSet(!client.getToggle().get()) ? a10 : a15;
+        ByteBuf buffer10 = null;
+        buffer10 = Unpooled.buffer(command.length);
+        buffer10.writeBytes(command);
+        client.getChannel().writeAndFlush(buffer10);
+    }
+
+    @PreDestroy
+    public void destroy() {
+        for (RadarClient client : RadarClientManager.getClients().values()) {
+            client.shutdown();
+        }
+    }
 
     public void process(String key, byte[] bytes) {
         try {

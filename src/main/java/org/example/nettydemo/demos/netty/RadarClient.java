@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * <p>Project: NettyDemo - RadarClient</p>
@@ -41,6 +42,9 @@ public class RadarClient {
     private EventLoopGroup group = new NioEventLoopGroup();
 
     private ScheduledFuture<?> switchTaskFuture;
+
+    @Getter
+    private AtomicBoolean toggle = new AtomicBoolean(true);
 
     public RadarClient(String host, int port) {
         this.host = host;
@@ -75,7 +79,7 @@ public class RadarClient {
                     }, 3000, TimeUnit.MILLISECONDS);
                 } else {
                     // 启动定时任务（切换大区）
-                    scheduleSwitchTask();
+//                    scheduleSwitchTask();
                     // 监听连接关闭
                     channel.closeFuture().addListener(closeFuture -> {
                         radarLogger.warn("Radar [{}:{}] connection closed.", host, port);

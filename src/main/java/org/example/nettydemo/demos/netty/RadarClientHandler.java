@@ -111,7 +111,7 @@ public class RadarClientHandler extends ChannelInboundHandlerAdapter {
         InetSocketAddress insocket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIp = insocket.getAddress().getHostAddress();
         String clientPort = String.valueOf(insocket.getPort());
-        radarLogger.info("设备连接成功:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarClientCount());
+        radarLogger.info("设备连接成功:{}", clientIp+":"+clientPort);
 
     }
 
@@ -122,13 +122,13 @@ public class RadarClientHandler extends ChannelInboundHandlerAdapter {
      * @throws Exception
      */
     @Override
-    public void channelInactive(ChannelHandlerContext ctx) throws Exception, IOException
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception
     {
         super.channelInactive(ctx);
         InetSocketAddress insocket = (InetSocketAddress) ctx.channel().remoteAddress();
         String clientIp = insocket.getAddress().getHostAddress();
         String clientPort = String.valueOf(insocket.getPort());
         ctx.close();
-        radarLogger.info("设备断开:{}, 当前设备数量：{}", clientIp+":"+clientPort, RadarClientManager.getRadarClientCount());
+        radarLogger.info("设备断开:{}", clientIp+":"+clientPort);
     }
 }

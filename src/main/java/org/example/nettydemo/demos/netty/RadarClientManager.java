@@ -27,6 +27,10 @@ public class RadarClientManager {
     // 存储设备 ip:port -> RadarClient 映射
     private static final Map<String, RadarClient> CLIENTS = new ConcurrentHashMap<>();
 
+    public static Map<String, RadarClient> getClients() {
+        return CLIENTS;
+    }
+
     public static int getRadarClientCount() {
         return CLIENTS.size();
     }
@@ -46,41 +50,14 @@ public class RadarClientManager {
     public static void addRadarClient(RadarDevice radarDevice) {
         RadarClient client = new RadarClient(radarDevice.getIp(), radarDevice.getPort());
         client.start();
-        CLIENTS.put(radarDevice.getIp()+":"+radarDevice.getPort(),client);
+        CLIENTS.put(radarDevice.getRadarId(),client);
     }
 
 
-    public void startAll(List<RadarDevice> radarDeviceList) {
+    public static void startAll(List<RadarDevice> radarDeviceList) {
         // 对每个雷达地址创建并启动一个RadarClient
         for (RadarDevice radarDevice : radarDeviceList) {
             addRadarClient(radarDevice);
-        }
-    }
-
-    @PostConstruct
-    public void afterPropertiesSet() {
-        Thread thread = new Thread(() -> {
-            try {
-                List<RadarDevice> radarDeviceList = new ArrayList<>();
-                int basePort = 9000; // 基础端口
-                int deviceCount = 2; // 需要模拟的设备数量
-
-                for (int i = 0; i < deviceCount; i++) {
-                    int port = basePort + i;
-                    radarDeviceList.add(new RadarDevice(port+"","127.0.0.1", port));
-                }
-                startAll(radarDeviceList);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
-        thread.start();
-    }
-
-    @PreDestroy
-    public void destroy() {
-        for (RadarClient client : CLIENTS.values()) {
-            client.shutdown();
         }
     }
 
