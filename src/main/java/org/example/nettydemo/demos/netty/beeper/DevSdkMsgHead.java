@@ -13,8 +13,8 @@ import lombok.Data;
  */
 @Data
 public class DevSdkMsgHead {
-    public static final int HEADER_LENGTH = 32; // 协议头长度
-    public static final byte[] MAGIC = {'H', 'K', 'M', 'V'}; // 固定魔术字
+    public static final int HEADER_SIZE = 28; // 协议头长度
+    public static final byte[] MAGIC = {0x48,0x4b,0x4d,0x56}; // 固定魔术字
 
     private byte[] magic = MAGIC;           // 固定为HKMV
     private int msgLen;                     // 协议头与消息体的长度
@@ -25,5 +25,13 @@ public class DevSdkMsgHead {
     private byte version = 1;               // 协议版本号
     private byte enc = 0;                   // 是否加密
     private byte[] res = new byte[2];       // 保留字段
+
+    public DevSdkMsgHead(int msgType, int msgLen) {
+        this.msgType = msgType;
+        this.msgLen = msgLen;
+        this.msgSeq = 0;
+        this.crc32 = 0;
+        this.encryptId = 0;
+    }
 
 }
