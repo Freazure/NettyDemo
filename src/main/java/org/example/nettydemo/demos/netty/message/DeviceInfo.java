@@ -21,6 +21,12 @@ public class DeviceInfo {
     private int port;
     private long lastActiveTime;
 
+    public DeviceInfo(String deviceId, String host, int port) {
+        this.deviceId = deviceId;
+        this.host = host;
+        this.port = port;
+    }
+
     @Override
     public String toString() {
         return String.format("Device[ID=%s, Protocol=%s, Connected=%s, Address=%s:%d]",

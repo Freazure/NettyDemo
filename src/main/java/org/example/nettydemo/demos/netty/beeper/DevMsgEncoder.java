@@ -25,19 +25,19 @@ public class DevMsgEncoder extends MessageToByteEncoder<DevMessage> {
         out.writeBytes(header.getMagic());
 
         // 写入消息长度
-        out.writeIntLE(header.getMsgLen());
+        out.writeInt(header.getMsgLen());
 
         // 写入消息类型
-        out.writeIntLE(header.getMsgType());
+        out.writeInt(header.getMsgType());
 
         // 写入消息序号
-        out.writeIntLE(header.getMsgSeq());
+        out.writeInt(header.getMsgSeq());
 
         // 写入CRC32
-        out.writeIntLE(header.getCrc32());
+        out.writeInt(header.getCrc32());
 
         // 写入加密ID
-        out.writeIntLE(header.getEncryptId());
+        out.writeInt(header.getEncryptId());
 
         // 写入版本号
         out.writeByte(header.getVersion());

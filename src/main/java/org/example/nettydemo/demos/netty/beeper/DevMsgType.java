@@ -31,15 +31,15 @@ public enum DevMsgType {
     DEV_MSG_SET_DEV_TYPE(22),                 // 设置设备类型
 
     // 呼叫器/控制器命令
-    DEV_MSG_TYPE_GET_IO_STAT(0x101),          // 获得输入IO状态
-    DEV_MSG_TYPE_GET_BTNS_CFG(0x102),         // 获得按键/输入IO配置参数
-    DEV_MSG_TYPE_SET_BTNS_CFG(0x103),         // 设置按键/输入IO配置参数
-    DEV_MSG_TYPE_EVENT_NOTIFY(0x104),         // 输入IO检测到高电平/按钮按下通知上层平台
-    DEV_MSG_TYPE_EVENT_PROC_RES(0x105),       // 平台对上报事件处理结果通知
+    DEV_MSG_TYPE_GET_IO_STAT(101),          // 获得输入IO状态
+    DEV_MSG_TYPE_GET_BTNS_CFG(102),         // 获得按键/输入IO配置参数
+    DEV_MSG_TYPE_SET_BTNS_CFG(103),         // 设置按键/输入IO配置参数
+    DEV_MSG_TYPE_EVENT_NOTIFY(104),         // 输入IO检测到高电平/按钮按下通知上层平台
+    DEV_MSG_TYPE_EVENT_PROC_RES(105),       // 平台对上报事件处理结果通知
 
     // 串口转发设置
-    DEV_MSG_GET_UART_ATTR_CFG(0x601),         // 获取串口设置
-    DEV_MSG_SET_UART_ATTR_CFG(0x602);         // 设置串口属性
+    DEV_MSG_GET_UART_ATTR_CFG(601),         // 获取串口设置
+    DEV_MSG_SET_UART_ATTR_CFG(602);         // 设置串口属性
 
     private final int value;
 

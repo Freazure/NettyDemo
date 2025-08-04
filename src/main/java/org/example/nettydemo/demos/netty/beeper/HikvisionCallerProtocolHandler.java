@@ -1,6 +1,7 @@
 package org.example.nettydemo.demos.netty.beeper;
 
 import io.netty.channel.ChannelHandlerContext;
+import org.example.nettydemo.demos.netty.client.HikvisionCallerClient;
 import org.example.nettydemo.demos.netty.message.EventNotification;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -60,6 +61,10 @@ public class HikvisionCallerProtocolHandler implements ProtocolHandler{
     @Override
     public void onChannelInactive(ChannelHandlerContext ctx) {
         logger.info("海康呼叫器设备断开: {}", ctx.channel().remoteAddress());
+        String s = ctx.channel().attr(HikvisionCallerClient.DEVICE_ID_KEY).get();
+        if (s != null) {
+            logger.info("设备ID: {}", s);
+        }
 //        if (callback != null) {
 //            callback.onDisconnected();
 //        }
