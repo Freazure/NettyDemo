@@ -1,6 +1,7 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.detector;
 
 import io.netty.buffer.ByteBuf;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 
 /**
  * <p>Project: NettyDemo - ProtocolDetector</p>

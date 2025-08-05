@@ -1,12 +1,15 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.detector;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 import io.netty.handler.codec.FixedLengthFrameDecoder;
 import io.netty.handler.codec.MessageToByteEncoder;
-import io.netty.handler.codec.http.HttpRequestDecoder;
-import io.netty.handler.codec.http.HttpResponseEncoder;
+import org.example.nettydemo.demos.netty.beeper.HikCallerDecoder;
+import org.example.nettydemo.demos.netty.beeper.HikCallerEncoder;
+import org.example.nettydemo.demos.netty.handler.ProtocolDispatchHandler;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
+import org.example.nettydemo.demos.netty.handler.ProtocolRouter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -103,7 +106,7 @@ public class ProtocolDetectionDecoder extends ByteToMessageDecoder {
     private ByteToMessageDecoder createProtocolDecoder(ProtocolType protocolType) {
         switch (protocolType) {
             case HIKVISION_CALLER:
-                return new DevMsgDecoder();
+                return new HikCallerDecoder();
             case RADAR:
                 return new FixedLengthFrameDecoder(5);
             default:
@@ -117,7 +120,7 @@ public class ProtocolDetectionDecoder extends ByteToMessageDecoder {
     private MessageToByteEncoder<?> createProtocolEncoder(ProtocolType protocolType) {
         switch (protocolType) {
             case HIKVISION_CALLER:
-                return new DevMsgEncoder();
+                return new HikCallerEncoder();
             case RADAR:
                 // 默认编码
                 return null;

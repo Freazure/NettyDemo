@@ -1,6 +1,7 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.handler;
 
 import io.netty.channel.ChannelHandlerContext;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 
 /**
  * <p>Project: NettyDemo - ProtocolHandler</p>

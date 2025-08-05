@@ -1,7 +1,8 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import lombok.extern.slf4j.Slf4j;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

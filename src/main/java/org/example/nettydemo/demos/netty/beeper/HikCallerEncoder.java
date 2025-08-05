@@ -15,11 +15,11 @@ import java.nio.charset.StandardCharsets;
  * @version 1.0
  * @since 1.8
  */
-public class DevMsgEncoder extends MessageToByteEncoder<DevMessage> {
+public class HikCallerEncoder extends MessageToByteEncoder<HikCallerMessage> {
     @Override
-    protected void encode(ChannelHandlerContext ctx, DevMessage msg, ByteBuf out) throws Exception {
+    protected void encode(ChannelHandlerContext ctx, HikCallerMessage msg, ByteBuf out) throws Exception {
         // 编码消息头
-        DevSdkMsgHead header = msg.getHeader();
+        HikCallerMsgHead header = msg.getHeader();
 
         // 写入魔法字符
         out.writeBytes(header.getMagic());

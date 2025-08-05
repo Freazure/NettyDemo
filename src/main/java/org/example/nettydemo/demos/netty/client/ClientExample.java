@@ -22,6 +22,8 @@ public class ClientExample {
         ClientManager.startHealthCheck();
         ClientManager.addClient("device1", "127.0.0.1", 9001, ProtocolType.HIKVISION_CALLER);
         ClientManager.addClient("device2", "127.0.0.1", 9002, ProtocolType.HIKVISION_CALLER);
+        ClientManager.addClient("device3", "127.0.0.1", 9003, ProtocolType.RADAR);
+        ClientManager.addClient("device4", "127.0.0.1", 9004, ProtocolType.RADAR);
 
     }
 }

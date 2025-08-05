@@ -1,13 +1,15 @@
-package org.example.nettydemo.demos.netty.client;
+package org.example.nettydemo.demos.netty.beeper;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.logging.LoggingHandler;
 import io.netty.util.AttributeKey;
-import org.example.nettydemo.demos.netty.beeper.*;
+import org.example.nettydemo.demos.netty.client.IDeviceClient;
+import org.example.nettydemo.demos.netty.handler.HikCallerProtocolHandler;
+import org.example.nettydemo.demos.netty.handler.ProtocolDispatchHandler;
+import org.example.nettydemo.demos.netty.handler.ProtocolRouter;
 import org.example.nettydemo.demos.netty.message.DeviceInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,11 +26,11 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0
  * @since 1.8
  */
-public class HikvisionCallerClient implements IDeviceClient{
+public class HikCallerClient implements IDeviceClient {
 
     private final DeviceInfo deviceInfo;
 
-    private static final Logger logger = LoggerFactory.getLogger(HikvisionCallerClient.class);
+    private static final Logger logger = LoggerFactory.getLogger(HikCallerClient.class);
 
     private EventLoopGroup group;
 
@@ -36,7 +38,7 @@ public class HikvisionCallerClient implements IDeviceClient{
 
     public static final AttributeKey<String> DEVICE_ID_KEY = AttributeKey.valueOf("DEVICE_ID_KEY");
 
-    public HikvisionCallerClient(DeviceInfo deviceInfo) {
+    public HikCallerClient(DeviceInfo deviceInfo) {
         this.deviceInfo = deviceInfo;
     }
 
@@ -48,7 +50,7 @@ public class HikvisionCallerClient implements IDeviceClient{
         group = new NioEventLoopGroup();
 
         ProtocolRouter protocolRouter = new ProtocolRouter();
-        protocolRouter.registerHandler(new HikvisionCallerProtocolHandler());
+        protocolRouter.registerHandler(new HikCallerProtocolHandler());
 
         try {
             Bootstrap bootstrap = new Bootstrap();
@@ -65,8 +67,8 @@ public class HikvisionCallerClient implements IDeviceClient{
                             ChannelPipeline pipeline = ch.pipeline();
 
                             // 添加编解码器
-                            pipeline.addLast("decoder", new DevMsgDecoder());
-                            pipeline.addLast("encoder", new DevMsgEncoder());
+                            pipeline.addLast("decoder", new HikCallerDecoder());
+                            pipeline.addLast("encoder", new HikCallerEncoder());
 
                             // 添加业务处理器
                             pipeline.addLast("handler", new ProtocolDispatchHandler(protocolRouter, deviceInfo.getProtocolType()));
@@ -162,6 +164,6 @@ public class HikvisionCallerClient implements IDeviceClient{
 
     @Override
     public ProtocolType getProtocolType() {
-        return deviceInfo.getProtocolType();
+        return ProtocolType.HIKVISION_CALLER;
     }
 }

@@ -1,6 +1,8 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.detector;
 
 import io.netty.buffer.ByteBuf;
+import org.example.nettydemo.demos.netty.beeper.HikCallerMsgHead;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 
 /**
  * <p>Project: NettyDemo - HikvisionCallerProtocolDetector</p>
@@ -11,9 +13,9 @@ import io.netty.buffer.ByteBuf;
  * @version 1.0
  * @since 1.8
  */
-public class HikvisionCallerProtocolDetector implements ProtocolDetector{
+public class HikCallerProtocolDetector implements ProtocolDetector {
 
-    private static final byte[] MAGIC_BYTES = DevSdkMsgHead.MAGIC;
+    private static final byte[] MAGIC_BYTES = HikCallerMsgHead.MAGIC;
 
     @Override
     public ProtocolType detectProtocol(ByteBuf buffer) {

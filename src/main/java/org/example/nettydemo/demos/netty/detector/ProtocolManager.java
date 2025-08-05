@@ -1,6 +1,7 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.detector;
 
 import io.netty.buffer.ByteBuf;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -19,7 +20,7 @@ public class ProtocolManager {
 
     public ProtocolManager() {
         // 注册默认的协议检测器
-        registerDetector(new HikvisionCallerProtocolDetector());
+        registerDetector(new HikCallerProtocolDetector());
         registerDetector(new RadarProtocolDetector());
     }
 

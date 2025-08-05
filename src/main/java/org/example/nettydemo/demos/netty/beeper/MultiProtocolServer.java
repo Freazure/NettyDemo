@@ -8,6 +8,13 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import lombok.Getter;
+import org.example.nettydemo.demos.netty.detector.ProtocolDetectionDecoder;
+import org.example.nettydemo.demos.netty.detector.ProtocolDetector;
+import org.example.nettydemo.demos.netty.detector.ProtocolManager;
+import org.example.nettydemo.demos.netty.handler.HikCallerProtocolHandler;
+import org.example.nettydemo.demos.netty.handler.ProtocolHandler;
+import org.example.nettydemo.demos.netty.handler.ProtocolRouter;
+import org.example.nettydemo.demos.netty.handler.RadarProtocolHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -59,7 +66,7 @@ public class MultiProtocolServer {
      */
     private void initializeDefaultHandlers() {
         // 注册海康呼叫器处理器
-        protocolRouter.registerHandler(new HikvisionCallerProtocolHandler());
+        protocolRouter.registerHandler(new HikCallerProtocolHandler());
         protocolRouter.registerHandler(new RadarProtocolHandler());
 //        protocolRouter.registerHandler(new HikvisionCallerProtocolHandler(new DevMessageCallback() {
 //            @Override

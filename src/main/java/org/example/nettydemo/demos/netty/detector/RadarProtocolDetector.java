@@ -1,6 +1,7 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.detector;
 
 import io.netty.buffer.ByteBuf;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 
 /**
  * <p>Project: NettyDemo - RadarProtocolDetector</p>
@@ -11,7 +12,7 @@ import io.netty.buffer.ByteBuf;
  * @version 1.0
  * @since 1.8
  */
-public class RadarProtocolDetector implements ProtocolDetector{
+public class RadarProtocolDetector implements ProtocolDetector {
     @Override
     public ProtocolType detectProtocol(ByteBuf buffer) {
         if (buffer.readableBytes() < getMinBytesRequired()) {
@@ -23,9 +24,6 @@ public class RadarProtocolDetector implements ProtocolDetector{
             return ProtocolType.RADAR;
         }
         return null;
-
-        // 检查第一位是否0x75，第二位是否为0x7B，第五位是否为0xEE
-
     }
 
     @Override

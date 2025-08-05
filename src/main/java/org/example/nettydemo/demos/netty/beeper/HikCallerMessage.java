@@ -11,33 +11,33 @@ import java.nio.charset.StandardCharsets;
  * @version 1.0
  * @since 1.8
  */
-public class DevMessage {
-    private DevSdkMsgHead header;
+public class HikCallerMessage {
+    private HikCallerMsgHead header;
     private String body;
 
-    public DevMessage(DevSdkMsgHead header, String body) {
+    public HikCallerMessage(HikCallerMsgHead header, String body) {
         this.header = header;
         this.body = body;
 
         // 更新消息长度
         if (body != null) {
             int bodyLen = body.getBytes(StandardCharsets.UTF_8).length + 1; // +1 for null terminator
-            header.setMsgLen(DevSdkMsgHead.HEADER_SIZE + bodyLen);
+            header.setMsgLen(HikCallerMsgHead.HEADER_SIZE + bodyLen);
         } else {
-            header.setMsgLen(DevSdkMsgHead.HEADER_SIZE);
+            header.setMsgLen(HikCallerMsgHead.HEADER_SIZE);
         }
     }
 
-    public DevSdkMsgHead getHeader() { return header; }
+    public HikCallerMsgHead getHeader() { return header; }
     public String getBody() { return body; }
     public void setBody(String body) {
         this.body = body;
         // 更新消息长度
         if (body != null) {
             int bodyLen = body.getBytes(StandardCharsets.UTF_8).length + 1;
-            header.setMsgLen(DevSdkMsgHead.HEADER_SIZE + bodyLen);
+            header.setMsgLen(HikCallerMsgHead.HEADER_SIZE + bodyLen);
         } else {
-            header.setMsgLen(DevSdkMsgHead.HEADER_SIZE);
+            header.setMsgLen(HikCallerMsgHead.HEADER_SIZE);
         }
     }
 }

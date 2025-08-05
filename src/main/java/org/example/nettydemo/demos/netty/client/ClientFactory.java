@@ -1,10 +1,11 @@
 package org.example.nettydemo.demos.netty.client;
 
+import org.example.nettydemo.demos.netty.beeper.HikCallerClient;
 import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 import org.example.nettydemo.demos.netty.message.DeviceInfo;
+import org.example.nettydemo.demos.netty.radar.RadarClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import sun.net.www.http.HttpClient;
 
 /**
  * <p>Project: NettyDemo - ClientFactory</p>
@@ -21,9 +22,9 @@ public class ClientFactory {
     public static IDeviceClient createClient(DeviceInfo deviceInfo) {
         switch (deviceInfo.getProtocolType()) {
             case HIKVISION_CALLER:
-                return new HikvisionCallerClient(deviceInfo);
+                return new HikCallerClient(deviceInfo);
             case RADAR:
-                return null;
+                return new RadarClient(deviceInfo);
             default:
                 throw new IllegalArgumentException("不支持的协议类型: " + deviceInfo.getProtocolType());
         }

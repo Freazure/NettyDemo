@@ -1,5 +1,6 @@
 package org.example.nettydemo.demos.netty.client;
 
+import org.example.nettydemo.demos.netty.beeper.HikCallerClient;
 import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -92,10 +93,10 @@ public class ClientManager {
     /**
      * 获取海康客户端
      */
-    public static HikvisionCallerClient getHikvisionCallerClient(String deviceId) {
+    public static HikCallerClient getHikvisionCallerClient(String deviceId) {
         IDeviceClient client = clients.get(deviceId);
-        if (client instanceof HikvisionCallerClient) {
-            return (HikvisionCallerClient) client;
+        if (client instanceof HikCallerClient) {
+            return (HikCallerClient) client;
         }
         return null;
     }

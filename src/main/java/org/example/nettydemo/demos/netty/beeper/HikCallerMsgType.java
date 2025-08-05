@@ -9,7 +9,7 @@ package org.example.nettydemo.demos.netty.beeper;
  * @version 1.0
  * @since 1.8
  */
-public enum DevMsgType {
+public enum HikCallerMsgType {
     DEV_MSG_TYPE_LOGIN(0),                    // 登录请求
     DEV_MSG_TYPE_REG(1),                      // 注册请求
     DEV_MSG_GET_CAP_INFO(2),                  // 获取设备能力
@@ -43,7 +43,7 @@ public enum DevMsgType {
 
     private final int value;
 
-    DevMsgType(int value) {
+    HikCallerMsgType(int value) {
         this.value = value;
     }
 
@@ -51,8 +51,8 @@ public enum DevMsgType {
         return value;
     }
 
-    public static DevMsgType fromValue(int value) {
-        for (DevMsgType type : values()) {
+    public static HikCallerMsgType fromValue(int value) {
+        for (HikCallerMsgType type : values()) {
             if (type.value == value) {
                 return type;
             }

@@ -1,7 +1,7 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.handler;
 
 import io.netty.channel.ChannelHandlerContext;
-import org.example.nettydemo.demos.netty.client.HikvisionCallerClient;
+import org.example.nettydemo.demos.netty.beeper.*;
 import org.example.nettydemo.demos.netty.message.EventNotification;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,19 +15,14 @@ import org.slf4j.LoggerFactory;
  * @version 1.0
  * @since 1.8
  */
-public class HikvisionCallerProtocolHandler implements ProtocolHandler{
-    private static final Logger logger = LoggerFactory.getLogger(HikvisionCallerProtocolHandler.class);
-//    private final DevMessageCallback callback;
-//
-//    public HikvisionCallerProtocolHandler(DevMessageCallback callback) {
-//        this.callback = callback;
-//    }
+public class HikCallerProtocolHandler implements ProtocolHandler {
+    private static final Logger logger = LoggerFactory.getLogger(HikCallerProtocolHandler.class);
 
     @Override
     public void handleMessage(ChannelHandlerContext ctx, Object message) {
-        if (message instanceof DevMessage) {
-            DevMessage devMsg = (DevMessage) message;
-            DevMsgType msgType = DevMsgType.fromValue(devMsg.getHeader().getMsgType());
+        if (message instanceof HikCallerMessage) {
+            HikCallerMessage devMsg = (HikCallerMessage) message;
+            HikCallerMsgType msgType = HikCallerMsgType.fromValue(devMsg.getHeader().getMsgType());
             logger.info("处理海康呼叫器消息: 类型={}, 长度={}, 消息体={}",
                     devMsg.getHeader().getMsgType(),
                     devMsg.getHeader().getMsgLen(),
@@ -38,10 +33,6 @@ public class HikvisionCallerProtocolHandler implements ProtocolHandler{
                     logger.info("收到事件通知: {}", eventNotification);
                     break;
             }
-
-//            if (callback != null) {
-//                callback.onMessageReceived(devMsg);
-//            }
         }
     }
 
@@ -53,20 +44,14 @@ public class HikvisionCallerProtocolHandler implements ProtocolHandler{
     @Override
     public void onChannelActive(ChannelHandlerContext ctx) {
         logger.info("海康呼叫器设备连接: {}", ctx.channel().remoteAddress());
-//        if (callback != null) {
-//            callback.onConnected(ctx.channel());
-//        }
     }
 
     @Override
     public void onChannelInactive(ChannelHandlerContext ctx) {
         logger.info("海康呼叫器设备断开: {}", ctx.channel().remoteAddress());
-        String s = ctx.channel().attr(HikvisionCallerClient.DEVICE_ID_KEY).get();
+        String s = ctx.channel().attr(HikCallerClient.DEVICE_ID_KEY).get();
         if (s != null) {
             logger.info("设备ID: {}", s);
         }
-//        if (callback != null) {
-//            callback.onDisconnected();
-//        }
     }
 }

@@ -1,7 +1,8 @@
-package org.example.nettydemo.demos.netty.beeper;
+package org.example.nettydemo.demos.netty.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import org.example.nettydemo.demos.netty.beeper.ProtocolType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

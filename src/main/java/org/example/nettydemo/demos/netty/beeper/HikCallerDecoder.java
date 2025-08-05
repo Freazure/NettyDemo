@@ -16,11 +16,11 @@ import java.util.List;
  * @version 1.0
  * @since 1.8
  */
-public class DevMsgDecoder extends ByteToMessageDecoder {
+public class HikCallerDecoder extends ByteToMessageDecoder {
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         // 检查是否有足够的字节来读取头部
-        if (in.readableBytes() < DevSdkMsgHead.HEADER_SIZE) {
+        if (in.readableBytes() < HikCallerMsgHead.HEADER_SIZE) {
             return;
         }
 
@@ -32,7 +32,7 @@ public class DevMsgDecoder extends ByteToMessageDecoder {
         in.readBytes(magic);
 
         // 验证魔法字符
-        if (!java.util.Arrays.equals(magic, DevSdkMsgHead.MAGIC)) {
+        if (!java.util.Arrays.equals(magic, HikCallerMsgHead.MAGIC)) {
             in.resetReaderIndex();
             in.skipBytes(1); // 跳过一个字节继续寻找
             return;
@@ -42,7 +42,7 @@ public class DevMsgDecoder extends ByteToMessageDecoder {
         int msgLen = in.readInt();
 
         // 检查消息是否完整
-        if (in.readableBytes() < msgLen - DevSdkMsgHead.HEADER_SIZE) {
+        if (in.readableBytes() < msgLen - HikCallerMsgHead.HEADER_SIZE) {
             in.resetReaderIndex();
             return;
         }
@@ -58,14 +58,14 @@ public class DevMsgDecoder extends ByteToMessageDecoder {
         in.readBytes(res);
 
         // 创建消息头
-        DevSdkMsgHead header = new DevSdkMsgHead(msgType, msgLen);
+        HikCallerMsgHead header = new HikCallerMsgHead(msgType, msgLen);
         header.setMsgSeq(msgSeq);
         header.setCrc32(crc32);
         header.setEncryptId(encryptId);
 
         // 读取消息体
         String body = null;
-        int bodyLen = msgLen - DevSdkMsgHead.HEADER_SIZE;
+        int bodyLen = msgLen - HikCallerMsgHead.HEADER_SIZE;
         if (bodyLen > 0) {
             byte[] bodyBytes = new byte[bodyLen];
             in.readBytes(bodyBytes);
@@ -86,7 +86,7 @@ public class DevMsgDecoder extends ByteToMessageDecoder {
         }
 
         // 创建消息对象
-        DevMessage message = new DevMessage(header, body);
+        HikCallerMessage message = new HikCallerMessage(header, body);
         out.add(message);
     }
 }

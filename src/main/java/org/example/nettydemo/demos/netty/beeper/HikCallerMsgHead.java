@@ -12,7 +12,7 @@ import lombok.Data;
  * @since 1.8
  */
 @Data
-public class DevSdkMsgHead {
+public class HikCallerMsgHead {
     public static final int HEADER_SIZE = 28; // 协议头长度
     public static final byte[] MAGIC = {0x48,0x4b,0x4d,0x56}; // 固定魔术字
 
@@ -26,7 +26,7 @@ public class DevSdkMsgHead {
     private byte enc = 0;                   // 是否加密
     private byte[] res = new byte[2];       // 保留字段
 
-    public DevSdkMsgHead(int msgType, int msgLen) {
+    public HikCallerMsgHead(int msgType, int msgLen) {
         this.msgType = msgType;
         this.msgLen = msgLen;
         this.msgSeq = 0;
