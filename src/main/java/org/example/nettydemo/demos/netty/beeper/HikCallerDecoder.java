@@ -3,6 +3,9 @@ package org.example.nettydemo.demos.netty.beeper;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
+import org.example.nettydemo.demos.netty.handler.HikCallerProtocolHandler;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
@@ -17,6 +20,10 @@ import java.util.List;
  * @since 1.8
  */
 public class HikCallerDecoder extends ByteToMessageDecoder {
+
+
+    private static final Logger logger = LoggerFactory.getLogger(HikCallerDecoder.class);
+
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         // 检查是否有足够的字节来读取头部

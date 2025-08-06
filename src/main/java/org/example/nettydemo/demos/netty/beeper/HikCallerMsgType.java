@@ -34,7 +34,7 @@ public enum HikCallerMsgType {
     DEV_MSG_TYPE_GET_IO_STAT(101),          // 获得输入IO状态
     DEV_MSG_TYPE_GET_BTNS_CFG(102),         // 获得按键/输入IO配置参数
     DEV_MSG_TYPE_SET_BTNS_CFG(103),         // 设置按键/输入IO配置参数
-    DEV_MSG_TYPE_EVENT_NOTIFY(104),         // 输入IO检测到高电平/按钮按下通知上层平台
+    DEV_MSG_TYPE_EVENT_NOTIFY(260),         // 输入IO检测到高电平/按钮按下通知上层平台
     DEV_MSG_TYPE_EVENT_PROC_RES(105),       // 平台对上报事件处理结果通知
 
     // 串口转发设置

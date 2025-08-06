@@ -6,6 +6,8 @@ import org.example.nettydemo.demos.netty.message.EventNotification;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Objects;
+
 /**
  * <p>Project: NettyDemo - HikvisionCallerProtocolHandler</p>
  * <p>Powered by szl On 2025-08-01 11:23:40</p>
@@ -27,6 +29,10 @@ public class HikCallerProtocolHandler implements ProtocolHandler {
                     devMsg.getHeader().getMsgType(),
                     devMsg.getHeader().getMsgLen(),
                     devMsg.getBody());
+            if (Objects.isNull(msgType)) {
+                logger.warn("未知的消息类型: {}", devMsg.getHeader().getMsgType());
+                return;
+            }
             switch (msgType) {
                 case DEV_MSG_TYPE_EVENT_NOTIFY:
                     EventNotification eventNotification = XmlMessageParser.parseEventNotification(devMsg.getBody());
