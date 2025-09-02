@@ -1,6 +1,6 @@
 package org.example.nettydemo.demos.netty.client;
 
-import org.example.nettydemo.demos.netty.beeper.ProtocolType;
+import org.example.nettydemo.demos.netty.common.enums.ProtocolType;
 import org.example.nettydemo.demos.netty.message.DeviceInfo;
 
 import java.util.concurrent.CompletableFuture;

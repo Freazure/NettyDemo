@@ -1,9 +1,9 @@
 package org.example.nettydemo.demos.netty.client;
 
-import org.example.nettydemo.demos.netty.beeper.HikCallerClient;
-import org.example.nettydemo.demos.netty.beeper.ProtocolType;
+import org.example.nettydemo.demos.netty.protocol.hikcaller.client.HikCallerClient;
+import org.example.nettydemo.demos.netty.common.enums.ProtocolType;
 import org.example.nettydemo.demos.netty.message.DeviceInfo;
-import org.example.nettydemo.demos.netty.radar.RadarClient;
+import org.example.nettydemo.demos.netty.protocol.radar.client.RadarClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

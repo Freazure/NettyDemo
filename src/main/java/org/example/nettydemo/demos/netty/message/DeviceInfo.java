@@ -1,7 +1,7 @@
 package org.example.nettydemo.demos.netty.message;
 
 import lombok.Data;
-import org.example.nettydemo.demos.netty.beeper.ProtocolType;
+import org.example.nettydemo.demos.netty.common.enums.ProtocolType;
 
 /**
  * <p>Project: NettyDemo - DeviceInfo</p>
